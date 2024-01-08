@@ -1,0 +1,20 @@
+﻿﻿@{
+    ViewData["Title"] = "Register Now";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form asp-method="post" asp-action="Success">
+    <p>Please enter your first name</p>
+    <input type="text" name="FirstName" />
+    <p>Please enter your last name</p>
+    <input type="text" name="LastName" />
+    <br />
+    <p>Please enter an email address</p>
+    <input type="email" name="Email" />
+    <br />
+    <p>Please choose a password</p>
+    <input type="password" name="Password" />
+
+    <!--This button submits the collected info -->
+    <input type="submit" />
+</form>
